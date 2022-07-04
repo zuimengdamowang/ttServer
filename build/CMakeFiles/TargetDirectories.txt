@@ -1,0 +1,4 @@
+/home/boyuan/tt/build/CMakeFiles/edit_cache.dir
+/home/boyuan/tt/build/CMakeFiles/rebuild_cache.dir
+/home/boyuan/tt/build/CMakeFiles/server.dir
+/home/boyuan/tt/build/CMakeFiles/multi_client.dir
