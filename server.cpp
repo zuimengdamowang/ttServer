@@ -18,7 +18,7 @@ int main() {
         conn->Read();
 
         LOG_INFO("Message from client " + std::to_string(conn->GetFd()) + ": " + conn->GetReadBuf()->GetStr());
-        // std::cout << "Message from client " << conn->GetFd() << ": " << conn->GetReadBuf()->GetStr() << std::endl;
+        std::cout << "Message from client " << conn->GetFd() << ": " << conn->GetReadBuf()->GetStr() << std::endl;
 
         HttpRequest request;
         int ret = request.Parse(conn->GetReadBuf()->GetStr());
